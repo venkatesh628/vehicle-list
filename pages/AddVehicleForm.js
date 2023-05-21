@@ -9,8 +9,8 @@ const AddVehicleForm = ({ onSubmit }) => {
     onSubmit({ name, price });
     setName('');
     setPrice('');
-  };
-
+  }; 
+ 
   return (
     <View>
       <TextInput
@@ -24,7 +24,9 @@ const AddVehicleForm = ({ onSubmit }) => {
         onChangeText={setPrice}
         keyboardType="numeric"
       />
-      <Button title="Submit" onPress={handleSubmit} />
+      <Button title="Submit" 
+      onPress={handleSubmit} 
+      />
     </View>
   );
 };
