@@ -8,7 +8,7 @@ const VehicleList = ({ vehicles }) => {
       <Text>Price: {item.price}</Text>
       <Text>PlaceName: {item.placeName}</Text>
     </View>
-  );
+  ); 
 
   return (
     <View>

@@ -9,7 +9,7 @@ const AddVehicleForm = ({ onSubmit }) => {
     onSubmit({ name, price });
     setName('');
     setPrice('');
-  };
+  }; 
  
   return (
     <View>
